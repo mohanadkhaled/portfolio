@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Mohand Khaled — aspiring Data Engineer building practical skills in Python, Pandas, SQL, and data pipelines.">
+  <title>Mohand Khaled | Aspiring Data Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Mohand Khaled home"><span class="brand-mark">MK</span><span>MOHAND KHALED<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Project</a>
+        <a href="#education">Education</a>
+        <a class="nav-cta" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO FREELANCE OPPORTUNITIES</div>
+        <h1>Turning raw data<br>into <span class="gradient-text">useful insights.</span></h1>
+        <p class="hero-lead">Hi, I’m <strong>Mohand Khaled</strong> — an aspiring Data Engineer and fourth-year Mathematics & Computer Science student, currently building my skills through DEPI and hands-on projects.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my project <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="https://github.com/mohanadkhaled" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-label">FOCUS</span><span>Data Pipelines · Data Cleaning</span></div>
+          <div><span class="meta-label">BASED IN</span><span>Egypt</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Illustration of a simple data processing pipeline">
+        <div class="visual-top"><span class="window-dots"><i></i><i></i><i></i></span><span class="mono">pipeline_overview.py</span><span class="live-label">IN PROGRESS</span></div>
+        <div class="pipeline-stage source-stage">
+          <div class="stage-icon">▤</div><div><span class="stage-kicker">SOURCE</span><strong>sales_data.csv</strong><small>Raw sales records</small></div><span class="stage-number">01</span>
+        </div>
+        <div class="pipeline-connector"><span></span><small>read_csv()</small></div>
+        <div class="pipeline-stage process-stage">
+          <div class="stage-icon">⌘</div><div><span class="stage-kicker">PROCESS</span><strong>Pandas cleaning</strong><small>Handle missing values</small></div><span class="stage-number">02</span>
+        </div>
+        <div class="pipeline-connector"><span></span><small>export</small></div>
+        <div class="pipeline-stage output-stage">
+          <div class="stage-icon">✓</div><div><span class="stage-kicker">OUTPUT</span><strong>cleaned_sales.csv</strong><small>Cleaned CSV file</small></div><span class="stage-number">03</span>
+        </div>
+        <div class="visual-footer"><span class="pulse"></span> Current project workflow <span class="mono">v0.1</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><span class="section-index">01 / ABOUT</span><h2>A learner’s mindset.<br><span class="muted-heading">A builder’s approach.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-intro">I’m at the beginning of my Data Engineering journey, focused on learning how to move, clean, and organize data in a reliable way.</p>
+        <div class="about-detail">
+          <p>My current hands-on work is a sales data project using Python and Pandas. I’m practicing core data-cleaning steps and gradually building toward a more complete pipeline.</p>
+          <p>I’m continuing to strengthen my foundations in Python and SQL through my studies and DEPI’s Data Engineering track.</p>
+          <div class="honesty-note"><span class="note-icon">↗</span><span><strong>Current focus</strong><br>This portfolio reflects my current learning stage. The featured project is in progress, and planned improvements are clearly marked as future work.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-heading"><span class="section-index">02 / SKILLS</span><h2>Tools I’m learning<br><span class="muted-heading">and practicing.</span></h2></div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-symbol python-symbol">Py</div><div class="skill-card-content"><h3>Python & Pandas</h3><p>Practical beginner-level use for reading CSV files, handling missing values, and exporting cleaned data.</p><div class="skill-tags"><span>CSV</span><span>Data Cleaning</span><span>Pandas</span></div></div>
+            <span class="skill-level">FOUNDATIONAL</span>
+          </article>
+          <article class="skill-card">
+            <div class="skill-symbol sql-symbol">SQL</div><div class="skill-card-content"><h3>SQL</h3><p>Basic queries using <code>SELECT</code> and <code>WHERE</code>. Still building practical experience.</p><div class="skill-tags"><span>SELECT</span><span>WHERE</span></div></div>
+            <span class="skill-level">FOUNDATIONAL</span>
+          </article>
+          <article class="skill-card">
+            <div class="skill-symbol db-symbol">DB</div><div class="skill-card-content"><h3>Database Concepts</h3><p>Basic familiarity with PostgreSQL and MySQL. Database loading has not yet been implemented in my current project.</p><div class="skill-tags"><span>PostgreSQL</span><span>MySQL</span></div></div>
+            <span class="skill-level">LEARNING</span>
+          </article>
+        </div>
+        <p class="skills-footnote"><span class="footnote-star">✳</span> I focus on demonstrating what I have practiced, while continuing to learn the tools used in modern data workflows.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><span class="section-index">03 / PROJECT</span><h2>Learning by building.</h2></div>
+      <article class="project-card">
+        <div class="project-banner">
+          <div class="banner-grid"></div>
+          <div class="banner-content">
+            <span class="project-status"><span class="status-dot"></span> IN PROGRESS</span>
+            <div class="banner-title">Sales Data<br><span>Pipeline & Data Warehouse</span></div>
+            <p>A practice project exploring a simple, repeatable workflow for cleaning sales data.</p>
+          </div>
+          <div class="banner-diagram" aria-hidden="true">
+            <div class="diagram-node"><span>CSV</span><small>Source</small></div><div class="diagram-line"><i></i></div>
+            <div class="diagram-node diagram-node-active"><span>Py</span><small>Clean</small></div><div class="diagram-line"><i></i></div>
+            <div class="diagram-node"><span>CSV</span><small>Output</small></div>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-description">
+            <span class="mini-label">OVERVIEW</span>
+            <h3>Cleaning sales data with Python</h3>
+            <p>The current workflow reads sales records from a CSV file, removes rows containing missing values using Pandas, and saves the cleaned data to a new CSV file.</p>
+            <div class="project-stack"><span>Python</span><span>Pandas</span><span>CSV</span></div>
+          </div>
+          <div class="project-details">
+            <div class="detail-block"><span class="detail-number">01</span><div><strong>Read source data</strong><p>Load sales records from a CSV file.</p></div></div>
+            <div class="detail-block"><span class="detail-number">02</span><div><strong>Handle missing values</strong><p>Remove rows that contain missing values.</p></div></div>
+            <div class="detail-block"><span class="detail-number">03</span><div><strong>Export cleaned data</strong><p>Save the processed records to a new CSV file.</p></div></div>
+          </div>
+          <div class="project-next">
+            <div><span class="mini-label">NEXT MILESTONES</span><h4>Where I plan to take it</h4></div>
+            <ul><li>Load cleaned data into PostgreSQL</li><li>Design a structured data warehouse</li><li>Add SQL transformations and data-quality checks</li></ul>
+            <p class="future-note">These are planned improvements and have not been implemented yet.</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-heading"><span class="section-index">04 / EDUCATION</span><h2>Building strong foundations.</h2></div>
+        <div class="timeline">
+          <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">CURRENTLY STUDYING</div><div class="timeline-content"><div class="timeline-title-row"><h3>Faculty of Science</h3><span class="timeline-pill">4th Year</span></div><p class="timeline-subtitle">Mathematics & Computer Science Department</p><p>Undergraduate student developing a foundation in mathematics and computing.</p></div></div>
+          <div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">TRAINING PROGRAM</div><div class="timeline-content"><h3>Digital Egypt Pioneers Initiative (DEPI)</h3><p class="timeline-subtitle">Data Engineering Track</p><p>Topics studied so far: Python and SQL.</p></div></div>
+        </div>
+        <div class="learning-card"><div class="learning-icon">↗</div><div><h3>Currently growing</h3><p>Strengthening Python and SQL fundamentals while developing a first hands-on data project.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-panel">
+        <div class="contact-orbit orbit-one"></div><div class="contact-orbit orbit-two"></div>
+        <span class="section-index">05 / CONTACT</span>
+        <h2>Let’s connect<br><span class="gradient-text">and grow.</span></h2>
+        <p>I’m interested in connecting with people in data, learning from real-world projects, and exploring suitable freelance opportunities as I continue to grow.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://www.linkedin.com/in/mohanad-khaled-3760a7415/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="https://github.com/mohanadkhaled" target="_blank" rel="noopener noreferrer">View GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="contact-email-note">Email contact can be added here when you’re ready to share one publicly.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="brand footer-brand" href="#home"><span class="brand-mark">MK</span><span>MOHAND KHALED<span class="brand-dot">.</span></span></a><p>Built with curiosity and a data-first mindset.</p><a class="back-top" href="#home">BACK TO TOP ↑</a><span class="copyright">© <span id="year"></span> Mohand Khaled</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
